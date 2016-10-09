@@ -1,0 +1,706 @@
+input matrix
+
+0 1 2 3 4 5 6 7 
+1 0 3 4 5 6 7 8 
+2 3 0 5 6 7 8 9 
+3 4 5 0 7 8 9 3 
+4 5 6 7 0 9 3 11 
+5 6 7 8 9 0 11 12 
+6 7 8 9 3 11 0 13 
+7 8 9 3 11 12 13 0 
+
+ --------- in A ------------ 
+xRowStart = 0 and xColStart = 0 and size = 8
+uRowStart = 0 and uColStart = 0 and size = 8
+vRowStart = 0 and vColStart = 0 and size = 8
+
+ --------- in A ------------ 
+xRowStart = 0 and xColStart = 0 and size = 4
+uRowStart = 0 and uColStart = 0 and size = 4
+vRowStart = 0 and vColStart = 0 and size = 4
+
+ --------- in A ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in A ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 0 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 0 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 0 and xColStart = 4 and size = 4
+uRowStart = 0 and uColStart = 0 and size = 4
+vRowStart = 0 and vColStart = 4 and size = 4
+
+ --------- in B ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 4 and xColStart = 0 and size = 4
+uRowStart = 4 and uColStart = 0 and size = 4
+vRowStart = 0 and vColStart = 0 and size = 4
+
+ --------- in C ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 0 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 4 and size = 4
+uRowStart = 4 and uColStart = 0 and size = 4
+vRowStart = 0 and vColStart = 4 and size = 4
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 0 and size = 2
+vRowStart = 0 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 2 and size = 2
+vRowStart = 2 and vColStart = 6 and size = 2
+
+ --------- in A ------------ 
+xRowStart = 4 and xColStart = 4 and size = 4
+uRowStart = 4 and uColStart = 4 and size = 4
+vRowStart = 4 and vColStart = 4 and size = 4
+
+ --------- in A ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in A ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 6 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 4 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 4 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 6 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 4 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 4 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 4 and xColStart = 0 and size = 4
+uRowStart = 4 and uColStart = 4 and size = 4
+vRowStart = 4 and vColStart = 0 and size = 4
+
+ --------- in B ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 0 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in B ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 6 and xColStart = 2 and size = 2
+uRowStart = 6 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 0 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 4 and xColStart = 2 and size = 2
+uRowStart = 4 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 0 and xColStart = 4 and size = 4
+uRowStart = 0 and uColStart = 4 and size = 4
+vRowStart = 4 and vColStart = 4 and size = 4
+
+ --------- in C ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 6 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in C ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 6 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 4 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 4 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 4 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 4 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 4 and vColStart = 6 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 0 and size = 4
+uRowStart = 0 and uColStart = 4 and size = 4
+vRowStart = 4 and vColStart = 0 and size = 4
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 4 and size = 2
+vRowStart = 4 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 0 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 0 and xColStart = 2 and size = 2
+uRowStart = 0 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 0 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 0 and size = 2
+
+ --------- in D ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+ --------- in iter ------------ 
+xRowStart = 2 and xColStart = 2 and size = 2
+uRowStart = 2 and uColStart = 6 and size = 2
+vRowStart = 6 and vColStart = 2 and size = 2
+
+Shortes path
+
+0 1 2 3 4 5 6 6 
+1 0 3 4 5 6 7 7 
+2 3 0 5 6 7 8 8 
+3 4 5 0 7 8 9 3 
+4 5 6 7 0 9 3 10 
+5 6 7 8 9 0 11 11 
+6 7 8 9 3 11 0 12 
+7 8 8 3 10 11 12 0 
